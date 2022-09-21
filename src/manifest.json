@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "version": "1.0.0",
-  "name": "__MSG_appName__",
-  "short_name": "__MSG_appShortName__",
-  "description": "__MSG_appDesc__",
+  "name": "Gravity Free Articles",
+  "short_name": "Gravity Free Articles",
+  "description": "An extension which removes the paywall and get access to the article, using 12ft.io",
   "default_locale": "en",
   "options_ui": {
     "page": "options.html"

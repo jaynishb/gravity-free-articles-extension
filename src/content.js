@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider, StyleSheetManager } from 'styled-components';
 import Box from 'components/Box';
-import Example from 'components/Example';
 import defaultTheme from 'themes/default';
+import GravityFree from 'components/gravityFree';
 
 const root = document.createElement('div');
 const shadow = root.attachShadow({ mode: 'open' });
@@ -26,7 +26,7 @@ const App = () => {
           bottom={3}
           right={3}
         >
-          <Example />
+          <GravityFree />
         </Box>
       </ThemeProvider>
     </StyleSheetManager>
